@@ -1,0 +1,40 @@
+/* reset starts here */
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/* reset ends here */
+
+header {
+    background-color: white;
+    height: 80px;
+    position: relative;
+}
+
+.logo-wrapper {
+    position: absolute;
+    left: 25px;
+    top: 15px;
+}
+
+#logo {
+    background-image: url('../img/Logo.png');
+    height: 50px;
+    width: 50px;
+    display: inline;
+    left: 25px;
+    vertical-align: middle;
+}
+
+h1 {
+    vertical-align: middle;
+    display: inline;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bolder;
+}
+
+main {
+    background-color: #f6f8f9;
+    height: calc(100vh - 80px);
+}
