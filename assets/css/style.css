@@ -74,7 +74,7 @@ main {
 }
 
 hr {
-    color: #f6f8f9;
+    border: 1px solid #f6f8f9;
 }
 
 .list-wrapper {
