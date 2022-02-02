@@ -87,16 +87,29 @@ h3 {
     padding-bottom: 8px;
 }
 
-.tick {
+.check::before {
+    content: "\2713";
     color: #7dcbb9;
     border: 1px solid #7dcbb9;
     border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    text-align: center;
+    line-height: 15px;
 }
 
-.cross {
+
+.cross::before {
+    content: "\00D7";
     color: #ec5950;
     border: 1px solid #ec5950;
     border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    text-align: center;
+    line-height: 15px;
 }
 
 .editorial {
